@@ -1,0 +1,111 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 400px;
+    max-width: 90%;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    position: relative;
+    transform: translateY(0); /* на випадок якщо були інші стилі */
+  }
+  
+  .modal h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .modal select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .modal button {
+    padding: 0.6rem 1.2rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal-close-button {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    font-size: 1.0rem;
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    z-index: 1001;
+  }
+  .modal-close-button:hover {
+    color: #000;
+  }
+  .modal-button-group {
+    display: flex;
+    justify-content: center; /* центрування по горизонталі */
+    gap: 10px; /* відстань між кнопками */
+    margin-top: 20px;
+  }
+  .main-content {
+    flex: 1;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 30px;
+    height: 100%; /* Додаємо */
+    box-sizing: border-box;
+  }
+  
+  
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: auto; /* автоматично "прижме" донизу */
+    padding-top: 20px;
+    padding-bottom: 30px;
+    gap: 0.5rem;
+  }
+  
+  .pagination button {
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    color: #2c7be5;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    transition: background 0.2s;
+  }
+  
+  .pagination button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .pagination .active {
+    background-color: #00aaff;
+    color: white;
+  }

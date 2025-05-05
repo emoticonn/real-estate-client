@@ -1,0 +1,65 @@
+.deal-panel {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .client-info, .property-info {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .property-info {
+    text-align: right;
+  }
+  
+  .property-info button {
+    margin-top: 10px;
+    padding: 8px 14px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .property-info button:hover {
+    background-color: #1565c0;
+  }
+  
+  .button-bar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 8px;
+  }
+  
+  .pagination button {
+    padding: 6px 12px;
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .pagination button:hover {
+    background-color: #d5d5d5;
+  }
+  
+  .pagination button.active {
+    background-color: #1976d2;
+    color: white;
+  }
+  

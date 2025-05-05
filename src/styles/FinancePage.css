@@ -1,0 +1,25 @@
+.finance-buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.finance-buttons button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #2f80ed;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.finance-buttons button:hover {
+  background-color: #1c60c1;
+}
+
+.finance-section {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}

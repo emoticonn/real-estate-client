@@ -1,0 +1,89 @@
+.deal-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .deal-modal {
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 420px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    z-index: 1100;
+  }
+  .deal-modal h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  .deal-modal form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .deal-modal label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
+  }
+  
+  .deal-modal input[type="date"],
+  .deal-modal input[type="number"],
+  .deal-modal input[type="file"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    width: 100%;
+  }
+  
+  .deal-modal button[type="submit"] {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .deal-modal button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .deal-error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  .deal-close-button {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    font-size: 1.4rem;
+    background: none;
+    border: none;
+    color: #888;
+    cursor: pointer;
+  }
+  
+  .deal-close-button:hover {
+    color: #000;
+  }
+  

@@ -1,0 +1,43 @@
+.sidebar {
+  background-color: #2d3436;
+  color: white;
+  width: 220px;
+  padding: 1rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.nav-links a,
+.sidebar-button {
+  color: white;
+  text-decoration: none;
+  background-color: #3a3f47;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background 0.2s ease, color 0.2s ease; /* + плавна зміна кольору */
+  display: block;
+  text-align: left;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Ховер для посилань і кнопки */
+.nav-links a:hover,
+.sidebar-button:hover {
+  background-color: #636e72;
+  color: white; /* додано явно, щоб текст був білим */
+}
+
+/* Активний пункт меню */
+.nav-links .active {
+  background-color: #00cec9;
+  color: white;
+}

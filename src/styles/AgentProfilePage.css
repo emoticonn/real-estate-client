@@ -1,0 +1,70 @@
+.agent-card {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    height: 300px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 2rem;
+  }
+  
+  .agent-photo {
+    width: 35%;
+    height: 100%;
+    object-fit: cover;
+    background-color: #f0f0f0;
+  }
+  
+  .agent-info {
+    width: 65%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.7rem;
+  }
+  
+  .agent-name {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .agent-detail {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .agent-label {
+    font-weight: 600;
+    color: #2c3e50;
+  }
+  
+  .history-card {
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding: 1rem 1.5rem;
+    margin-bottom: 1rem;
+    max-width: 1000px;
+  }
+  
+  .history-card p {
+    margin: 0.3rem 0;
+    font-size: 0.95rem;
+    color: #444;
+  }
+  
+  .success-message {
+    background-color: #dff0d8;
+    color: #3c763d;
+    padding: 12px 20px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #c3e6cb;
+    font-weight: bold;
+    text-align: center;
+  }
+  

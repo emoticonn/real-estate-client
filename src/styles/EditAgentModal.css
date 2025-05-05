@@ -1,0 +1,86 @@
+.agent-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .agent-modal {
+    background: #fff;
+    border-radius: 12px;
+    width: 420px;
+    max-width: 95%;
+    padding: 30px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    font-family: "Segoe UI", sans-serif;
+  }
+  
+  .agent-modal h3 {
+    margin: 0 0 10px;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .agent-modal label {
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .agent-modal input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 100%;
+    transition: border-color 0.3s;
+  }
+  
+  .agent-modal input:focus {
+    border-color: #1976d2;
+    outline: none;
+  }
+  
+  .agent-modal-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .agent-modal-buttons button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .agent-modal-buttons button.save-btn {
+    background-color: #1976d2;
+    color: white;
+  }
+  
+  .agent-modal-buttons button.save-btn:hover {
+    background-color: #1565c0;
+  }
+  
+  .agent-modal-buttons button.cancel-btn {
+    background-color: #eeeeee;
+    color: #333;
+  }
+  
+  .agent-modal-buttons button.cancel-btn:hover {
+    background-color: #dddddd;
+  }
+  

@@ -1,0 +1,85 @@
+.role-modal {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 400px;
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+    overflow: visible;
+}
+
+.modal h3 {
+    margin-top: 0.5rem;
+    color: #2c3e50;
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+/* Поля вводу та кнопка "Оновити роль" */
+.modal select,
+.modal button.submit-button {
+    height: 40px;
+    font-size: 1rem;
+    padding: 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.modal button.submit-button {
+    background-color: #2d3436;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.modal button.submit-button:hover {
+    background-color: #636e72;
+}
+
+/* Кнопка закриття */
+.role-close-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 30px;
+    height: 30px;
+    background: #2d3436;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px; /* <-- Заокруглений квадрат */
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.close-button:hover {
+    background: #636e72; /* Фон при наведенні */
+}
+
+.delete-button {
+    background-color: #e74c3c; /* червоний */
+    color: white;
+    height: 40px;
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
